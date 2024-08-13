@@ -4,7 +4,7 @@ import MenuItem from "./components/MenuItem";
 
 const Sidebar = () => {
   return (
-    <div className="fixed flex flex-col gap-4 w-[280px] border-r min-h-screen p-4">
+    <div className=" flex flex-col gap-4 w-[280px] min-h-screen p-4 shadow">
       <UserItem />
       <MenuItem />
       <div>Setting/Notifications</div>

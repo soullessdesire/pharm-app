@@ -4,11 +4,7 @@ import { CreditCard } from "lucide-react";
 import { Component as Bar } from "@components/Charts/Bar";
 import Image from "next/image";
 
-const Span = ({ className, children }) => {
-  return <span className={className}>{children}</span>;
-};
-
-const page = () => {
+const Page = () => {
   const sales = 265;
   const [sampleValue, setSampleValue] = useState(["2875483Ksh"]);
   const sampleData = [
@@ -72,7 +68,7 @@ const page = () => {
     },
   ];
   return (
-    <div className="flex flex-col gap-2 w-full min-h-[540px]  grow overflow-y-scroll overflow-x-hidden">
+    <div className="flex flex-col gap-2 w-full h-[740px] overflow-y-scroll overflow-x-hidden">
       <h2 className="p-2 font-bold text-3xl">Dashboard</h2>
       <div className="flex gap-2 grow">
         {sampleData.map((data, key) => {
@@ -119,6 +115,7 @@ const page = () => {
                       width={48}
                       height={24}
                       alt="customer image"
+                      className="rounded-full"
                     ></Image>
                   </div>
                   <div className="grow">
@@ -132,8 +129,9 @@ const page = () => {
           </div>
         </div>
       </div>
+      <div className="h-[300px]"></div>
     </div>
   );
 };
 
-export default page;
+export default Page;

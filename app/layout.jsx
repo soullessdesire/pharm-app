@@ -6,15 +6,17 @@ export const metadata = {
   title: "",
   description: "",
 };
+
 const RootLayout = ({ children }) => {
   return (
     <html lang="en">
       <body className="flex overflow-hidden">
         <Sidebar />
-        <main className="pl-[280px] grow flex flex-col">
+        <main className=" grow flex border-l flex-col">
           <Header />
           {children}
         </main>
+        <div id="modal"></div>
       </body>
     </html>
   );

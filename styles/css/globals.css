@@ -74,6 +74,18 @@
 .bg-color {
   background-color: rgb(250, 247, 245);
 }
+.bg-modal {
+  background-color: rgba(0, 0, 0, 0.487);
+}
+input::-webkit-inner-spin-button {
+  display: none;
+}
+input::-webkit-outer-spin-button {
+  display: none;
+}
+.no-resize {
+  resize: none;
+}
 ::-webkit-scrollbar {
   width: 12px;
 }

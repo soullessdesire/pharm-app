@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid" width="214" height="214" style="shape-rendering: auto; display: block; background: rgb(255, 255, 255);" xmlns:xlink="http://www.w3.org/1999/xlink"><g><rect fill="#e8e8e8" height="24" width="24" y="13" x="13">
+  <animate calcMode="discrete" begin="0s" repeatCount="indefinite" dur="1.4285714285714284s" keyTimes="0;0.125;1" values="#35ff00;#e8e8e8;#e8e8e8" attributeName="fill"></animate>
+</rect><rect fill="#e8e8e8" height="24" width="24" y="13" x="38">
+  <animate calcMode="discrete" begin="0.17857142857142855s" repeatCount="indefinite" dur="1.4285714285714284s" keyTimes="0;0.125;1" values="#35ff00;#e8e8e8;#e8e8e8" attributeName="fill"></animate>
+</rect><rect fill="#e8e8e8" height="24" width="24" y="13" x="63">
+  <animate calcMode="discrete" begin="0.3571428571428571s" repeatCount="indefinite" dur="1.4285714285714284s" keyTimes="0;0.125;1" values="#35ff00;#e8e8e8;#e8e8e8" attributeName="fill"></animate>
+</rect><rect fill="#e8e8e8" height="24" width="24" y="38" x="13">
+  <animate calcMode="discrete" begin="1.2499999999999998s" repeatCount="indefinite" dur="1.4285714285714284s" keyTimes="0;0.125;1" values="#35ff00;#e8e8e8;#e8e8e8" attributeName="fill"></animate>
+</rect><rect fill="#e8e8e8" height="24" width="24" y="38" x="63">
+  <animate calcMode="discrete" begin="0.5357142857142857s" repeatCount="indefinite" dur="1.4285714285714284s" keyTimes="0;0.125;1" values="#35ff00;#e8e8e8;#e8e8e8" attributeName="fill"></animate>
+</rect><rect fill="#e8e8e8" height="24" width="24" y="63" x="13">
+  <animate calcMode="discrete" begin="1.0714285714285714s" repeatCount="indefinite" dur="1.4285714285714284s" keyTimes="0;0.125;1" values="#35ff00;#e8e8e8;#e8e8e8" attributeName="fill"></animate>
+</rect><rect fill="#e8e8e8" height="24" width="24" y="63" x="38">
+  <animate calcMode="discrete" begin="0.8928571428571428s" repeatCount="indefinite" dur="1.4285714285714284s" keyTimes="0;0.125;1" values="#35ff00;#e8e8e8;#e8e8e8" attributeName="fill"></animate>
+</rect><rect fill="#e8e8e8" height="24" width="24" y="63" x="63">
+  <animate calcMode="discrete" begin="0.7142857142857142s" repeatCount="indefinite" dur="1.4285714285714284s" keyTimes="0;0.125;1" values="#35ff00;#e8e8e8;#e8e8e8" attributeName="fill"></animate>
+</rect><g></g></g></svg>
