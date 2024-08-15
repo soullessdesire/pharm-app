@@ -5,35 +5,10 @@ import { useRef, useState } from "react";
 import { countryCodes as countryCodesBuffer } from "@components/DataBuffer";
 import { Modal } from "@components/Modal";
 import Image from "next/image";
+import validateCardNumber from "@utils/bankNo";
 
 const options = ["JSON", "XML"];
-function luhnCheck(cardNumber) {
-  let sum = 0;
-  let shouldDouble = false;
-  for (let i = cardNumber.length - 1; i >= 0; i--) {
-    let digit = parseInt(cardNumber.charAt(i));
 
-    if (shouldDouble) {
-      digit *= 2;
-      if (digit > 9) {
-        digit -= 9;
-      }
-    }
-
-    sum += digit;
-    shouldDouble = !shouldDouble;
-  }
-
-  return sum % 10 === 0;
-}
-
-function validateCardNumber(cardNumber) {
-  const isNumeric = /^\d{16}$/.test(cardNumber);
-  if (!isNumeric) {
-    return false;
-  }
-  return luhnCheck(cardNumber);
-}
 const Form = ({ setShow }) => {
   const [countryCodes, setCountryCodes] = useState(countryCodesBuffer);
   const [message, setMessage] = useState(false);
@@ -186,8 +161,8 @@ const Form = ({ setShow }) => {
                             src={`/assets/Svgs/country-flags/${
                               entry.name + ".svg"
                             }`}
-                            width={"auto"}
-                            height={"auto"}
+                            width={40}
+                            height={40}
                             alt={`${entry.name + "'s flag"}`}
                           />
                         </div>
